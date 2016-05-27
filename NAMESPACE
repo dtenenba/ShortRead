@@ -1,6 +1,6 @@
 useDynLib(ShortRead, .registration=TRUE)
 
-import(zlibbioc, methods, BiocGenerics, S4Vectors, IRanges,
+import(methods, BiocGenerics, S4Vectors, IRanges,
     Biostrings, GenomeInfoDb, GenomicRanges, GenomicAlignments,
     Rsamtools, Biobase)
 
