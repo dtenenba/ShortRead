@@ -1,5 +1,5 @@
-ZLIB_CFLAGS+=-I"$(BINPREF)/../i686-w64-mingw32/include"
-PKG_LIBS+=-L"$(BINPREF)/../i686-w64-mingw32/lib" -lz
+ZLIB_CFLAGS+=-I"$(BINPREF)../i686-w64-mingw32/include"
+PKG_LIBS+=-L"$(BINPREF)../i686-w64-mingw32/lib" -lz
 %.o: %.c
 	$(CC) $(ZLIB_CFLAGS) $(ALL_CPPFLAGS) $(ALL_CFLAGS) -c $< -o $@
 %.o: %.cc
